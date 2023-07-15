@@ -8,8 +8,6 @@
 body{
     background-color: rgb(177,217,219);
     height:100vh;
-    /* width: 400px; */
-    /* overflow:hidden; */
 }
 .MainDiv{
     display:flex;
