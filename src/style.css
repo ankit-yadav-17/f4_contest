@@ -1,0 +1,126 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(177,217,219);
+    height:100vh;
+    /* width: 400px; */
+    /* overflow:hidden; */
+}
+.MainDiv{
+    display:flex;
+    justify-content: space-between;
+    height: 100vh;
+    width:100vw;
+}
+
+.right-div{
+    background-color: white;
+    width:40vw;
+    height:70vh;
+    padding:10vh 25vh 20vh 25vh;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px;
+}
+
+img{
+    width:25px;
+    height:25px;
+}
+
+.facebook img{
+    height: 22px;
+    width:28px;
+}
+
+.google-facebook {
+    display:flex;
+    border:none;
+    gap:100px;
+    margin-top:20px;
+    justify-content: space-evenly;
+}
+
+.google, .facebook{
+    display:flex;
+    align-items: center;
+    border:1px solid rgb(153,153,153);
+    padding:0px 4px 0px 4px;
+    border-radius:5px;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+#or{
+    padding:20px;
+    text-align: center;
+    font-size:larger;
+    color:rgb(153,153,153);
+}
+
+input{
+    margin:10px;
+    display:block;
+    width:40vw;
+    border:none;
+    border-bottom:1px solid grey;
+    padding:10px;
+}
+
+.submit-btn{
+    width:40vw;
+    margin:10px 20px 0px 20px;
+    border:none;
+    background-color: rgb(177,217,219);
+    color:white;
+    border-radius:10px;
+    padding:15px;
+    font-size:25px;
+    font-weight: bolder;
+}
+
+.submit-btn:focus{
+    background-color: rgb(37, 185, 193);
+}
+
+.errorClass{
+    margin-top:20px;
+    text-align: center;
+    color:red;
+    font-size: larger;
+}
+
+.successClass{
+    margin-top:20px;
+    text-align: center;
+    color:rgb(43, 187, 195);
+    font-size: larger;
+}
+
+.left-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-upper-div{
+    font-size: 30px;
+    padding:70px 50px 50px 50px;
+    color:white;
+    height:30vh;
+}
+
+.left-lower-div img{
+    width:500px;
+    height:500px;
+    position:relative;
+    top:-19%;
+    left:21%;
+    height:60vh;
+}
